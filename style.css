@@ -9,12 +9,10 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
-    background: linear-gradient(#e66465, #9198e5);
-    /*background-color: #101214;*/
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 
 }
 
