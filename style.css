@@ -1,18 +1,16 @@
 /* global */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-.grid-2{
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;1,200&display=swap');.grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 
 body{
-    margin: 0;
+    margin:0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro';
     height: 100vh;
-    background-color: #ffffff;
-    color: #000000;
+    background-color:#090909;
+    color: #ffffff;
 
 }
 
@@ -21,14 +19,34 @@ h2,.white{
 }
 
 a{
-    color: #7A7C80;
+    color: #fff;
     text-decoration: none;
 }
 /* section 1 */
+
+img {
+    opacity:0.7;
+    transition: all 0.4s ease-out;
+}
+
+img:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.avatar {
+    vertical-align:middle;
+    width: 100px;
+    height: 113px;
+    border-radius: 50%;
+
+  }
+
 .section-1{
     padding-top: 40vh;
     padding-left: 20vw;
     text-align: center;
+    font-weight: 400;
 }
 
 .section-1 p{
@@ -50,6 +68,7 @@ a{
 .section-2{
     padding-top: 20vh;
     width: 70%;
+    font-weight:200;
 }
 
 .section-2 h2{
@@ -64,25 +83,56 @@ a{
 }
 
 .section-2 a{
-    display: block;
-    padding: 5px;
+    /* display: block; */
     font-size: 1.2rem;
     padding-left: 0;
-    width: 100px;
+    width: 100px;    
+    transition: all 0.4s ease-out;
+
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.section-1 a:hover{
-    color: #000;
+    color:pink;
+    font-style:italic;
     cursor: pointer;
     transition: 0.3s;
 }
+
+.section-1 a:hover{
+    opacity:0.7;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .section-1 i {
+    transition: all 0.3s ease-out;
+}
+
+.section-1 i:hover {
+    transition: 0.3s;
+    padding-left:8px;
+} */
+
+.icon {
+    padding:5px;
+}
+
+.icon i {
+    transition: all 0.3s ease-out;
+
+
+}
+.icon i:hover {
+    transition: 0.3s;
+    padding-left:8px;
+}
+
+
+/* .section-1 i:hover {
+    padding-left:8px;
+    transition:0.3s;
+} */
 
 .white:hover{
     position: relative;
