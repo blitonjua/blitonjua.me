@@ -14,6 +14,11 @@ body{
 
 }
 
+::selection {
+    background-color:#ffffff;
+    color:#090909;
+  }
+
 h2,.white{
     color: #fff;
 }
